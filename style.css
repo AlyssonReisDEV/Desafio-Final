@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.login-box{
+    background: rgba(17, 89, 107, 0.95);
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 15px 35px rgb(8, 5, 5);
+    width: 400px;
+    text-align: center;
+}
+
