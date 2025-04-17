@@ -5,22 +5,51 @@
     font-family: 'Arial', sans-serif;
     font-size: 16px;
 }
-
-body{
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.svg-container img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 700px; /* Define um limite máximo para a largura */
 }
-.login-box{
-    background: rgba(17, 89, 107, 0.95);
-    padding: 40px;
-    border-radius: 50px;
-    box-shadow: 0 15px 35px rgb(8, 5, 5);
-    width: 400px;
-    text-align: center;
+
+.svg-container {
+    position: relative; /* Define o contêiner como referência para posicionamento */
+    width: 100%; /* Ajusta a largura do contêiner */
+    height: auto; /* Mantém a proporção */
+}
+
+.svg-container img {
+    width: 100%; /* Faz o SVG ocupar toda a largura do contêiner */
+    height: auto;
+    display: block;
+}
+
+.textbox1 {
+    position: absolute; /* Permite posicionar o elemento sobre o SVG */
+    top: 41%; /* Ajuste para posicionar verticalmente */
+    left: 70%; /* Ajuste para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o elemento */
+
+}
+.textbox2 {
+    position: absolute; /* Permite posicionar o elemento sobre o SVG */
+    top: 50%; /* Ajuste para posicionar verticalmente */
+    left: 50%; /* Ajuste para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o elemento */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.textbox3 {
+    position: absolute; /* Permite posicionar o elemento sobre o SVG */
+    top: 50%; /* Ajuste para posicionar verticalmente */
+    left: 50%; /* Ajuste para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o elemento */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
